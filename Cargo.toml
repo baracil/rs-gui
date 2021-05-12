@@ -1,5 +1,5 @@
 [package]
-name = "gui"
+name = "rs-gui"
 version = "0.1.0"
 authors = ["Bastien Aracil <findbastien@gmail.com>"]
 edition = "2018"
