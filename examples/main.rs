@@ -1,24 +1,24 @@
 use raylib::prelude::*;
 
-use gui::gui::Gui;
+use rsgui::gui::Gui;
 
 
-use gui::alignment::VAlignment::{Top, Center};
-use gui::alignment::HAlignment::{Left, Middle};
+use rsgui::alignment::VAlignment::{Top, Center};
+use rsgui::alignment::HAlignment::{Left, Middle};
 
-use gui::widget::Widget::{Pane, VBox, Label, HBox, Slider};
-use gui::pane::PanePar;
-use gui::size::Size;
-use gui::background::Background::Solid;
-use gui::border::Border::Line;
-use gui::position::Coordinate::{Relative, Absolute};
-use gui::vbox::VBoxPar;
-use gui::label::LabelPar;
-use gui::padding::Padding;
-use gui::fill::Fill::Enabled;
-use gui::hbox::HBoxPar;
-use gui::slider::SliderPar;
-use gui::mouse::MouseState;
+use rsgui::widget::Widget::{Pane, VBox, Label, HBox, Slider};
+use rsgui::pane::PanePar;
+use rsgui::size::Size;
+use rsgui::background::Background::Solid;
+use rsgui::border::Border::Line;
+use rsgui::position::Coordinate::{Relative, Absolute};
+use rsgui::vbox::VBoxPar;
+use rsgui::label::LabelPar;
+use rsgui::padding::Padding;
+use rsgui::fill::Fill::Enabled;
+use rsgui::hbox::HBoxPar;
+use rsgui::slider::SliderPar;
+use rsgui::mouse::MouseState;
 
 fn main() {
     let (mut rl, thread) = raylib::init()
