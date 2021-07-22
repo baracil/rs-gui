@@ -32,14 +32,14 @@ fn main() {
     let mut gui = Gui::new();
     gui.load_font(&mut rl, &thread,
                   "default",
-                  "/home/Bastien Aracil/Downloads/FreckleFace-Regular.ttf",
+                  "resources/fonts/FreckleFace-Regular.ttf",
                   48,
                   200,
     ).expect("Could not load the font");
 
     gui.load_font(&mut rl, &thread,
                   "small",
-                  "/home/Bastien Aracil/Downloads/FreckleFace-Regular.ttf",
+                  "resources/fonts/FreckleFace-Regular.ttf",
                   24,
                   200,
     ).expect("Could not load the font");
